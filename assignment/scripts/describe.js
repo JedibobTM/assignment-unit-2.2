@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a string variable named name and set it to the value of 'Dane'.
+// We then see, through in if/else conditional, if the name is equal to 'Mary' through a boolean check.
+// If 'name' is equal to 'Mary', console.log 'Hi, Mary!' Otherwise, console.log 'How do you do?
+// 'Dane' is not equal to 'Mary', setting the conditional to false, therefore, console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create an empty variable called 'secret', and a variable called 'code', and set 'code' to 123.
+// Set a conditional that checks a boolean to see if 'code' is 123.
+// The boolean is true, so 'secret' gets set to 'super', and the value of code is doubled, now equaling 246.
+// Then, check to see if 'code' is greater than 250.
+// 246 is not high enough, therefore failing the check.
+// console.log 'super'.
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create three variables: a boolean, called 'isStudent' set to true; 
+// 'age', set to the value of 34; zip, set to the value of 55407.
+// Check to see if 'isStudent' is true AND 'zip' is greater than 80000
+// If the conditions are met, console.log 'You're a student on the west coast!'. However, 'zip' is lesser than 8000.
+// Now we check if 'isStudent' is false OR age is under 30. If met, console.log 'What are your hobbies?'
+// 'isStudent' is true, however, so now we check if 'isStudent' is true. 
+// Otherwise, if none of the conditions are met, console.log 'How about the weather?'
+// 'isStudent' is true, therefore console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -132,10 +138,14 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+
+// FIX - Set colorOne to 'blue', not 'red' and set colorTwo should be set to 'red'
+
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - Set colorTwo to 'purple'
 }
 */
 
@@ -148,6 +158,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+  // FIX - Conditional should contain && instead of ||
   console.log('throw away the food!');
 }
 */
@@ -161,6 +172,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // FIX - you could do it this way, just get rid of the equals sign and you get the intended result
   console.log('no entry');
 } else {
   console.log('enter');
